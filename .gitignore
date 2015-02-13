@@ -1,0 +1,5 @@
+# git will ignore these files:
+*~*
+/.project
+/.pydevproject
+/info
