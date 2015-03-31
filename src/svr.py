@@ -57,8 +57,8 @@ tFzl_scaled = t_scaler.transform(tFzl)
 mtUrl_scaled = npy.array(zip(m_scaler.transform(mUrl), t_scaler.transform(tUrl)))
 mtFzl_scaled = npy.array(zip(m_scaler.transform(mFzl), t_scaler.transform(tFzl)))
 
-mtUrl_scaled = npy.array(m_scaler.transform(mUrl) + t_scaler.transform(tUrl))
-mtFzl_scaled = npy.array(m_scaler.transform(mFzl) + t_scaler.transform(tFzl))
+#mtUrl_scaled = npy.array(m_scaler.transform(mUrl) + t_scaler.transform(tUrl))
+#mtFzl_scaled = npy.array(m_scaler.transform(mFzl) + t_scaler.transform(tFzl))
 
 kwhUrl_scaled = kwhUrl_scaler.transform(kwhUrl)
 kwhFiz_scaled = kwhFiz_scaler.transform(kwhFiz)
